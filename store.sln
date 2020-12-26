@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastru
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store", "Store\Store.csproj", "{162943EF-BCCB-40BA-A49E-A86082300BC9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{9FAFE882-5A12-4EAB-B64D-180D6C990A83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Store.Web", "presentation\Store.Web\Store.Web.csproj", "{91945762-424B-450D-8AB0-DEAAA2BB1AC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,18 @@ Global
 		{162943EF-BCCB-40BA-A49E-A86082300BC9}.Release|x64.Build.0 = Release|Any CPU
 		{162943EF-BCCB-40BA-A49E-A86082300BC9}.Release|x86.ActiveCfg = Release|Any CPU
 		{162943EF-BCCB-40BA-A49E-A86082300BC9}.Release|x86.Build.0 = Release|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Debug|x64.Build.0 = Debug|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Debug|x86.Build.0 = Debug|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Release|x64.ActiveCfg = Release|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Release|x64.Build.0 = Release|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Release|x86.ActiveCfg = Release|Any CPU
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,6 +68,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{1B9893D9-8921-4182-ACE6-C20D7552C45A} = {0D340750-2AED-4D3F-A6F7-1C8CE4BB3CAC}
 		{162943EF-BCCB-40BA-A49E-A86082300BC9} = {D592CC5A-BC94-4ABC-A1BA-08719D59270C}
+		{91945762-424B-450D-8AB0-DEAAA2BB1AC1} = {9FAFE882-5A12-4EAB-B64D-180D6C990A83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9C9E5ACF-678D-4827-AD9B-C64A75716CC9}
